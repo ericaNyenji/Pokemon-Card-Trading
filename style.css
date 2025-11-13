@@ -1,0 +1,348 @@
+:root {
+  --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+}
+
+h1 {
+    text-align: center; /* Center-align the heading */
+    font-size: 36px;
+    color: #721c24;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #aaa;
+}
+
+/* body {
+    background-color: #f8d7da;
+  
+    margin: 0; 
+} */
+
+nav.primary-navigation {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  padding: 60px 0 0 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: arvo;
+}
+
+nav.primary-navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav.primary-navigation li {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+}
+
+nav.primary-navigation li.toLeft {
+  float: left;
+}
+
+nav.primary-navigation li.toRight {
+  float: right;
+  border-left: 2px solid #3ca0e7; /* Add border only on the right side of SignUp */
+}
+
+nav.primary-navigation li.forLineBar {
+  border-right: 2px solid #3ca0e7;
+}
+
+nav.primary-navigation li a {
+  color: black;
+  /* display: block; */
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+nav.primary-navigation li a:hover {
+  color: #3ca0e7;
+}
+
+body {
+  background-image: url("./images/bg4.jpg");
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #000;
+  font-family: sans-serif, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: large;
+  background-size: 100% auto; /* Set background size to cover horizontally and maintain original size vertically */
+  /* background-repeat: no-repeat; Prevent the background image from repeating 
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ 
+}
+
+.login-link {
+    order: -1; /* Move the login link to the left */
+}
+h3 {
+    margin-bottom: 15px;
+}
+
+
+.highlight {
+  position: relative;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  z-index: -1;
+  opacity: 0.8;
+  transform: scale(1.2, 1.2) skewX(-16deg);
+  background: var(--gradient-primary);
+}
+.highlight::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  z-index: -1;
+  opacity: 0.8;
+  transform: scale(1.2, 1.2) skewX(-16deg);
+  background: var(--gradient-primary);
+}
+
+
+.introduction {
+  font-size: larger;
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.introduction .intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  /* opacity: 0.95; */
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.introduction .intro p {
+  padding: 3%;
+}
+
+.introduction img {
+  width: 80%;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+  height: 500px;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* ======= Pokémon Cards ======= */
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  width: 220px;
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 20px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 12px 24px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #333;
+}
+
+.card strong {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card button:hover {
+  background-color:black;
+}
+
+.card.selected {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.hidden {
+  display: none;
+}
+
+.card.selected {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Fade-in animation for cards */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card.fade-in {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* ===== Adjust Pokémon main image ===== */
+.card .pokemonCardImage img {
+  width: 100%;
+  height: 160px;       /* fixed height for all Pokémon images */
+  object-fit: contain;  /* maintain aspect ratio */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* ===== Make all small icons (type, status, price) uniform and small ===== */
+.pokemoneStatus img,
+.pokemoneType img,
+.cardRow.pokemoneCardPrice img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* ===== Reduce spacing between texts ===== */
+.card p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+
+/* ===== Limit description height (optional) ===== */
+.discription p {
+  max-height: 50px;
+  overflow: hidden;
+  font-size: 0.85rem;
+}
+/* ===== Guest Disabled Buy Button ===== */
+.disabledBuy {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: not-allowed;
+  opacity: 0.7;
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+.disabledBuy:hover {
+  background-color: #333;
+  opacity: 0.9;
+}
+
+.disabledBuy[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  z-index: 10;
+}
