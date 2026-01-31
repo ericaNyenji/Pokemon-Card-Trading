@@ -1,3 +1,27 @@
+Log In Details: 
+1. 
+Username : admin
+Password : admin
+
+2.
+Username : 
+Password : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Erica Mary Nyenji
 BRGLRC
 Web programming - assignment
@@ -48,4 +72,5 @@ The most serious consequence of a disciplinary offence is dismissal from the uni
 [ ] `2.0 points` Main page: on the main page only 9 cards should be displayed at a time, underneath them you can navigate through the pages (with page numbers, arrows). Always display cards corresponding to the current page number, each page should display the next 9 cards. To solve this, use AJAX/fetch.
 [ ] `1.0 point` Exchange Step 1: On the main page, for cards that are not in the admin and are in our house, a replacement button should appear, which the user can click to replace any card with this card.
 [ ] `1.0 point` Exchange Step 2: The exchange should not be immediate and voluntary, but the other party should be notified and be able to accept or reject it.
+
 [ ] `1.0 point` Exchange Step 3: The exchange can include the possibility to add money to either side. Watch out for negative numbers!
