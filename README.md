@@ -2,7 +2,7 @@ Log In Details:
 
 
 
-1. 
+User 1. 
 
 
 
@@ -14,7 +14,7 @@ Log In Details:
 
 
 
-2.
+User 2.
 
       Username :
 
@@ -89,6 +89,7 @@ The most serious consequence of a disciplinary offence is dismissal from the uni
 [ ] `1.0 point` Exchange Step 2: The exchange should not be immediate and voluntary, but the other party should be notified and be able to accept or reject it.
 
 [ ] `1.0 point` Exchange Step 3: The exchange can include the possibility to add money to either side. Watch out for negative numbers!
+
 
 
 
